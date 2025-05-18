@@ -21,7 +21,7 @@ jobs:
         pandoc resume.md -o resume.pdf --pdf-engine=xelatex -V mainfont="Noto Sans CJK SC"
 
     - name: Upload PDF as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: resume-pdf
         path: resume.pdf
