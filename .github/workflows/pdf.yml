@@ -1,9 +1,9 @@
-name: Generate PDF Resume
+name: Generate PDF Resume with markdown-pdf
 
 on:
   push:
     paths:
-      - 'resume.md'  # 只要 resume.md 有改动就触发
+      - 'resume.md'
 
 jobs:
   build:
@@ -11,13 +11,18 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Install Pandoc and LaTeX
-      run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex fonts-noto-cjk
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install markdown-pdf globally
+      run: npm install -g markdown-pdf
 
     - name: Convert resume.md to PDF
-      run: pandoc resume.md -o resume.pdf --pdf-engine=xelatex -V mainfont="Noto Sans CJK SC"
+      run: markdown-pdf resume.md -o resume.pdf
 
     - name: Upload PDF artifact
       uses: actions/upload-artifact@v2
