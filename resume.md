@@ -5,7 +5,7 @@
 ## Personal Information
 
 * Gender: Male                      Age: 25  
-* Phone: 0406266429                 Email: u6516595@anu.edu.au  
+* Phone: 0406266429                                     Email: u6516595@anu.edu.au  
 * Major: Computer Science
 
 ## Education
