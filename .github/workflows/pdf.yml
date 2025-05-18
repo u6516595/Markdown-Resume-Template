@@ -1,0 +1,27 @@
+name: Generate PDF Resume
+
+on:
+  push:
+    paths:
+      - 'resume.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Pandoc
+      run: sudo apt-get install -y pandoc texlive-xetex fonts-noto-cjk
+
+    - name: Convert resume.md to PDF
+      run: |
+        pandoc resume.md -o resume.pdf --pdf-engine=xelatex -V mainfont="Noto Sans CJK SC"
+
+    - name: Upload PDF as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: resume-pdf
+        path: resume.pdf
