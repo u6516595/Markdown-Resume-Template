@@ -1,62 +1,36 @@
  <center>
-     <h1>XXX</h1>
+     <h1>李炎升</h1>
  </center>
 
 ## 个人信息
 
 * 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：25
-* 手 机：134XXXX3216 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  邮 箱：XXXXX@XXX.com
-* 专 业：计算机科学与计算 &emsp;&emsp;&emsp;&emsp;&emsp; 岗 位：研发工程师
+* 手 机：0406266429 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;  邮 箱：u6516595@anu.edu.au
+* 专 业：计算机科学 &emsp;&emsp;&emsp;&emsp;&emsp; 
 
-## 工作及教育经历
-
-* 前公司&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2019.8~至今&emsp;&emsp;&emsp;&emsp;&emsp; 事业群名字-部门名字
-* XXXX大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2019.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-研究生
-* XXXX大学&emsp;&emsp;&emsp;&emsp;&emsp;2013.9~2017.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
+## 教育经历
+* 澳洲国立大学&emsp;&emsp;&emsp;&emsp;&emsp;2023.7~2026.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
 
 ## 专业技能
 
-* 熟练使用 C++，掌握Go，了解 Java、Python、PHP 等编程语言
-* 掌握基础数据结构和算法的基本原理
-* 等等
+* 具备扎实的MySQL开发基础；
+* 熟悉基础数据结构和算法的基本原理。
+* 了解Java，python等编程语言。
+* 了解数据分析和处理。
+* 正在学习机械学习和计算机视觉
 
-## 项目经历
+## 项目经验
+### 商品价格管理系统（小组项目）  
+- 使用 Java 开发  
+- 实现价格查询、排序、筛选功能  
 
-1. 公司/学校 - XXweb服务器 - 独立开发 - 201508- 201512
-    * 具体功能
-    * 运用了那些技术，技术难点是
-    * 效果如何
-    * demo演示地址，github地址
+### 数据分析项目（课程项目）  
+- 使用 Python 处理 10,000+ 条数据集  
+- 生成可视化分析报告  
 
-2. 公司/学校 - XX游戏 - 负责后端开发 - 201309- 201401
-    * 具体功能
-    * 运用了那些技术，技术难点是
-    * 效果如何
-    * demo演示地址，github地址
-
-## 获奖经历
-* XXX 优秀新人
-* XXX 学生社团优秀干部
-* 竞赛 XXX 奖
-
-## 个人账号
-* blog 地址 (附加自己博客特色，写了哪些技术文章)
-* github 地址 (附加自己github特色，突出的项目)
-
-## 其他信息
-* 喜欢钻研技术 等等
-* 性格开朗，喜欢跳舞，做个主持人 等等
-
-## Word版领取方式
-
-**Word版本的简历，添加代码随想录企业微信，通过之后就会发你word版本**。
-
-<div align="center"><img src="https://file.kamacoder.com/pics/20250318122414.png" data-img="1" width="200" height="200"></img></div>
-
-如果已经有代码随想录企业微信，直接回复：简历模板，就可以了。
-
-## 总结
-
-**好的简历是敲门砖，同时也不要在简历上花费过多的精力，好的简历以及面试技巧都是锦上添花**，真的求得心得的offer靠的还是真才实学。
-
+## 自我评价
+- 扎实的算法与数据结构基础  
+- 良好的团队协作与沟通能力  
+- 持续学习新技术（机器学习方向）  
+- 注重代码规范与可维护性  
 
