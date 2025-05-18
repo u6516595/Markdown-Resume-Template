@@ -1,17 +1,25 @@
-name: PDF Test
+name: Generate PDF with mdpdf
 
-on: [push]
+on[push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-      - run: npm install -g markdown-pdf
-      - run: |
-          echo "# Test PDF" > test.md
-          markdown-pdf test.md -o test.pdf
-      - run: ls -lh
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install mdpdf
+      run: npm install -g mdpdf
+
+    - name: Convert resume.md to PDF
+      run: mdpdf resume.md -o resume.pdf
+
+    - name: List files
+      run: ls -lh
