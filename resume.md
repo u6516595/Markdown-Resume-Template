@@ -1,37 +1,39 @@
- <center>
-     <h1>李炎升</h1>
- </center>
+<center>
+  <h1>Li Yansheng</h1>
+</center>
 
-## 个人信息
+## Personal Information
 
-* 性 别：男&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：25
-* 手 机：0406266429 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;  邮 箱：u6516595@anu.edu.au
-* 专 业：计算机科学 &emsp;&emsp;&emsp;&emsp;&emsp; 
+* Gender: Male                      Age: 25  
+* Phone: 0406266429                 Email: u6516595@anu.edu.au  
+* Major: Computer Science
 
-## 教育经历
-* 澳洲国立大学&emsp;&emsp;&emsp;&emsp;&emsp;2023.7~2026.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
+## Education
 
-## 专业技能
+* Australian National University         2023.7 ~ 2026.7     Bachelor of Computer Science and Technology
 
-* 具备扎实的MySQL开发基础；
-* 熟悉基础数据结构和算法的基本原理。
-* 了解Java，python等编程语言。
-* 了解数据分析和处理。
-* 正在学习机械学习和计算机视觉
+## Professional Skills
 
-## 项目经验
-### 商品价格管理系统（小组项目）  
-- 使用 Java 开发  
-- 实现价格查询、排序、筛选功能  
+* Solid foundation in MySQL development  
+* Familiar with basic data structures and algorithm principles  
+* Knowledge of programming languages such as Java and Python  
+* Understanding of data analysis and processing  
+* Currently learning machine learning and computer vision
 
-### 数据分析项目（课程项目）  
-- 使用 Python 处理 10,000+ 条数据集  
-- 生成可视化分析报告  
+## Project Experience
 
-## 自我评价
-- 扎实的算法与数据结构基础  
-- 良好的团队协作与沟通能力  
-- 持续学习新技术（机器学习方向）  
-- 注重代码规范与可维护性
+### Product Price Management System (Group Project)  
+- Developed using Java  
+- Implemented price query, sorting, and filtering features  
 
+### Data Analysis Project (Course Project)  
+- Processed 10,000+ data entries using Python  
+- Generated visual analytical reports  
+
+## Self-Evaluation
+
+- Strong foundation in algorithms and data structures  
+- Good teamwork and communication skills  
+- Actively learning new technologies (machine learning direction)  
+- Focus on code quality and maintainability
 
